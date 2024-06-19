@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+
+}
+
+h1 {
+    font-size: 133%;
+}
+
+p {
+    font-size: 103%;
+}
+
+
+
+
+
+#container {
+    max-width: 1200px;
+
+    margin: auto;
+    background: rgb(158, 245, 156);
+}
+
+#header {
+    padding: 1rem;
+}
+
+#content {
+    background: rgb(227, 245, 222);
+    display: flex;
+}
+
+#left {
+    text-align: center;
+    width: 25%;
+    padding: 1rem;
+    background: rgb(210, 248, 206);
+}
+
+#left ul li {
+    background: rgb(227, 245, 222);
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+}
+
+#left ul li:hover {
+    background: rgb(158, 245, 156);
+
+}
+
+a:active {
+    color: blue;
+}
+
+#right {
+    width: 75%;
+    padding: 1rem;
+    height: 77vh;
+    overflow: hidden;
+}
+
+.senter {
+    text-align: center;
+}
+
+#footer {
+    padding: 1rem;
+}
+
+#f_box {
+    background: rgb(210, 248, 206);
+    width: 63%;
+    padding: 2rem;
+    padding-top: 1.6rem;
+    margin: auto;
+    margin-top: 1rem;
+    border: 2px solid rgb(70, 219, 70);
+    border-radius: 2rem;
+    overflow-x: auto;
+}
+
+#f_box form {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+#f_box form button {
+    width: 50%;
+    padding: 0.3rem 0;
+    margin-top: 1rem;
+    background: rgb(158, 245, 156);
+    border: 1px solid greenyellow;
+}
+/*  */
+#f_box form button:hover {
+    cursor: pointer;
+    background: rgb(37, 245, 33);
+}
+.error {
+    color: crimson;
+    margin-bottom: 0.8rem;
+}
+.success{
+    color: rgb(20, 181, 255);
+    margin-bottom: 0.8rem;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    /* table-layout: fixed; */
+    /* overflow: auto; */
+}
+
+table td,table th{
+    border: 1px solid black;
+    padding: 4px;
+ text-align: center;
+ font-size: 16px;
+}
+
+
+#footer {
+    text-align: center;
+}
+
